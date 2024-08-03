@@ -16,7 +16,7 @@ public class SeleniumItsx {
     public WebDriver webDriver;
     public SeleniumItsx(){
         FirefoxOptions optionsConf = new FirefoxOptions();
-        optionsConf.addArguments("--headless");
+     //   optionsConf.addArguments("--headless");
         this.webDriver = new FirefoxDriver(optionsConf);
         this.webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
